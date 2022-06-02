@@ -14,3 +14,5 @@ Se van a crear dos redes virtuals en Azure, posteriormente se van a crear dos VM
 ## Pasos
 
 - Se inicia sesión en la página de [Azure](https://portal.azure.com/)
+
+![P](https://github.com/AlanAlvaradoR/Azure-practica-1-WordPress/blob/main/imagenes/wordpress.png)
