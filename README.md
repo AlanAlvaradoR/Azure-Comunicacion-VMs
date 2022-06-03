@@ -163,3 +163,36 @@ Se van a crear dos redes virtuals en Azure, posteriormente se van a crear dos VM
 
 ![P5-32](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-32.PNG)
 
+- Escribimos y ejecutamos el siguiente código: New-NetFirewallRule -DisplayName "Allow ICMPv4-In" -Protocol ICMPv4
+
+![P5-33](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-33.PNG)
+
+- Se va a mostrar algo como lo siguiente:
+
+![P5-34](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-34.PNG)
+
+- Escribimos y ejecutamos el siguiente código: mtsc /v10.0.0.5                                
+*NOTA: 10.0.0.5 se debe reemplazar por la dirección IP que se copio de la segunda máquina virtual
+
+![P5-34](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-34.PNG)
+
+- Se abrirá una pestaña como la siguiente:
+
+![P5-35](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-35.PNG)
+
+- Escribimos el usuario y contraseña que se crearon para la segunda máquina virtual
+
+![P5-36](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-36.PNG)
+
+- Nos dará un anuncio como el siguiente, le damos en aceptar
+
+![P5-37](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-37.PNG)
+
+- Ahora nos abrirá un escritorio remoto con la máquina virtual 2 desde la máquina virtual 1
+
+![P5-38](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-38.PNG)
+
+- Y ya con eso tendremos la conexión entre las dos máquinas virtuales por medio de una red virtual. En este caso tenemos una máquina virtual ejecutándose desde otra máquina virtual
+
+![P5-39](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-39.PNG)
+
