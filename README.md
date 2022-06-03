@@ -1,6 +1,6 @@
-# Azure comunicación entre dos VM por medio de redes virtuales
+# Azure comunicación entre dos VM 
 
-Se van a crear dos redes virtuals en Azure, posteriormente se van a crear dos VM en Azure, asignando una red virtual a cada una para finalmente comunicar ambas redes virtuales entre sí y así lograr comunicación entre las VM también.
+Se van a crear dos Máquinas virtuales en Azure, después, por medio de una red virtual ambas van a comunicarse haciendo posible que una se ejecute dentro de la otra
 
 ![Logo de VM](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/VM.jpg)
 
