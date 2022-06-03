@@ -139,19 +139,19 @@ Se van a crear dos Máquinas virtuales en Azure, después, por medio de una red 
 
 - Le damos doble click y seleccionamos "ejecutar con escritorio remoto"
 
-![P5-27](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-27.PNG)
+![P5-27](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-27.png)
 
 - Abrirá la aplicación que instalamos desdela tienda y nos pedirá permisos para el accceso aceptamos
 
-![P5-28](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-28.PNG)
+![P5-28](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-28.png)
 
 - Después nos pedirá nuestro usuario y contraseña. Aquí debemos colocar el usuario y contraseña que creamos para la primer máquina virtual. Le damos en conectar.
 
-![P5-29](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-29.PNG)
+![P5-29](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-29.png)
 
 - En la siguiente ventana le damos en "conectarse de todos modos"
 
-![P5-30](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-30.PNG)
+![P5-30](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-30.png)
 
 - Nos abrirá la máquina virtual con el inicio de Windows, aquí minimizamos la aplicación de escritorio remoto.
 
