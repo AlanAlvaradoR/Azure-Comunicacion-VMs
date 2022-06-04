@@ -163,7 +163,10 @@ Se van a crear dos Máquinas virtuales en Azure, después, por medio de una red 
 
 ![P5-32](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-32.PNG)
 
-- Escribimos y ejecutamos el siguiente código: New-NetFirewallRule -DisplayName "Allow ICMPv4-In" -Protocol ICMPv4
+- Escribimos y ejecutamos el siguiente código: 
+```Bash
+New-NetFirewallRule -DisplayName "Allow ICMPv4-In" -Protocol ICMPv4
+```
 
 ![P5-33](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-33.PNG)
 
@@ -171,7 +174,10 @@ Se van a crear dos Máquinas virtuales en Azure, después, por medio de una red 
 
 ![P5-34](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-34.PNG)
 
-- Escribimos y ejecutamos el siguiente código: mtsc /v10.0.0.5                                
+- Escribimos y ejecutamos el siguiente código: 
+```Bash
+mtsc /v10.0.0.5         
+```
 *NOTA: 10.0.0.5 se debe reemplazar por la dirección IP que se copio de la segunda máquina virtual
 
 ![P5-34](https://github.com/AlanAlvaradoR/Azure-Comunicacion-VMs/blob/main/imagenes/P5-34.PNG)
